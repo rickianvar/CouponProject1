@@ -56,7 +56,6 @@ public class CustomersDAOImp implements CustomersDAO {
 
     @Override
     public void updateCustomer(int customerId, Customer customer) throws SQLException, InterruptedException {
-//TODO   WHAT TO PUT IN ID - UPDATE ACCORDING TO ID ?
 
         Map<Integer, Object> map = new HashMap<>();
 

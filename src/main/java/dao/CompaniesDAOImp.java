@@ -55,7 +55,6 @@ public class CompaniesDAOImp implements CompaniesDAO {
 
     @Override
     public void updateCompany(int companyId, Company company) throws SQLException, InterruptedException {
-//TODO   WHAT TO PUT IN ID - UPDATE ACCORDING TO ID ?
 
         Map<Integer, Object> map = new HashMap<>();
         map.put(1, company.getName());
